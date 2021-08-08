@@ -1,4 +1,3 @@
-import logo from "./pip.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -6,9 +5,8 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header d-flex">
-          <img src={logo} alt="logo" className="img-fluid" />
-          <span className="App-header-text">Dictionary</span>
+        <header className="App-header">
+          <span>Dictionary</span>
         </header>
         <main>
           <Dictionary />
