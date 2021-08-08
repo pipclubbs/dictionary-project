@@ -1,0 +1,7 @@
+.Synonyms li {
+  color: #ff4c29;
+  opacity: 0.6;
+  display: inline;
+  list-style: none;
+  padding-left: 20px;
+}
