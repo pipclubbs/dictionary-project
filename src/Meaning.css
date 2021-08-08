@@ -1,0 +1,14 @@
+.Meaning-category {
+  color: #ff4c29;
+  font-size: 22px;
+}
+
+.Meaning-definition {
+  color: #2c394b;
+}
+
+.Meaning-example {
+  color: #2c394b;
+  font-style: italic;
+  opacity: 0.8;
+}

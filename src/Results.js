@@ -7,11 +7,13 @@ export default function Results(props) {
     console.log(props.data.meanings);
     return (
       <div className="Results">
-        <div className="Results-searched-word text-capitalize">
-          <h2>{props.data.word}</h2>
-          <div className="Results-phonetics">
+        <div>
+          <h2 className="Results-searched-word text-capitalize">
+            {props.data.word}
+          </h2>
+          <p className="Results-phonetics">
             / {props.data.phonetics[0].text} /
-          </div>
+          </p>
         </div>
         <div>
           {props.data.meanings.map(function (meaning, index) {
