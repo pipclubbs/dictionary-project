@@ -6,3 +6,17 @@
   font-size: 30px;
   padding: 10px;
 }
+
+.App-footer-img {
+  text-decoration: none;
+}
+
+.App-footer-img:hover {
+  text-decoration: underline;
+}
+
+.App-footer {
+  font-weight: 50;
+  text-align: center;
+  margin-top: 100px;
+}
