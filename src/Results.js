@@ -1,19 +1,24 @@
 import React from "react";
 import Meaning from "./Meaning";
+import Phonetics from "./Phonetics";
 import "./Results.css";
 
 export default function Results(props) {
   if (props.data) {
-    console.log(props.data.meanings);
     return (
       <div className="Results">
         <div>
           <h2 className="Results-searched-word text-capitalize">
             {props.data.word}
           </h2>
-          <p className="Results-phonetics">
-            / {props.data.phonetics[0].text} /
-          </p>
+
+          {props.data.phonetics.map(function (phonetics, index) {
+            return (
+              <div key={index}>
+                <Phonetics phonetics={phonetics} />
+              </div>
+            );
+          })}
         </div>
         <div>
           {props.data.meanings.map(function (meaning, index) {
