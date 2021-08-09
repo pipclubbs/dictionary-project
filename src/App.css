@@ -1,14 +1,10 @@
 body {
-  background-color: #334756;
+  background-color: #87a8a4;
+  text-align: center;
 }
 
 h1 {
   padding-top: 25px;
-}
-
-.App .container {
-  text-align: center;
-  background-color: #fbe555;
 }
 
 .App-header {

@@ -15,7 +15,10 @@
 }
 
 .Meaning-section {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.Meaning p {
+  margin-bottom: 5px;
 }
