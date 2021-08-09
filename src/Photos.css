@@ -1,0 +1,16 @@
+.Photos section {
+  border-style: none;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  background-color: #fff;
+  width: 450px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.Photos img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+  max-width: 100%;
+}
