@@ -1,20 +1,13 @@
 .Results-searched-word {
   font-size: 25px;
   color: #2c394b;
+  padding-top: 15px;
 }
 
-.Results-phonetics {
-  font-size: 20px;
-  color: #2c394b;
-  opacity: 0.5;
-  padding-bottom: 20px;
-}
-
-.Results-category {
-  color: #ff4c29;
-}
-
-.Results-example {
-  font-style: italic;
-  opacity: 0.8;
+.Results section {
+  border-style: none;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 5%);
+  border-radius: 5px;
+  background-color: #fbea76;
+  margin: 10 30px;
 }

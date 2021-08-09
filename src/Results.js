@@ -7,7 +7,7 @@ export default function Results(props) {
   if (props.data) {
     return (
       <div className="Results">
-        <div>
+        <section>
           <h2 className="Results-searched-word text-capitalize">
             {props.data.word}
           </h2>
@@ -19,8 +19,8 @@ export default function Results(props) {
               </div>
             );
           })}
-        </div>
-        <div>
+        </section>
+        <section>
           {props.data.meanings.map(function (meaning, index) {
             return (
               <div key={index}>
@@ -28,7 +28,7 @@ export default function Results(props) {
               </div>
             );
           })}
-        </div>
+        </section>
       </div>
     );
   } else {

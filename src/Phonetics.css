@@ -1,0 +1,13 @@
+.Phonetics-text {
+  font-size: 18px;
+  color: #2c394b;
+  opacity: 0.7;
+}
+
+.Phonetics-audio {
+  text-decoration: none;
+}
+
+.Phonetics-audio:hover {
+  text-decoration: underline;
+}

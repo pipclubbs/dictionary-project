@@ -28,10 +28,10 @@ export default function Dictionary() {
         <input
           type="search"
           placeholder="Search for a word..."
-          autoFocus={true}
           onChange={handleKeywordChange}
         />
       </form>
+
       <Results data={results} />
     </div>
   );
