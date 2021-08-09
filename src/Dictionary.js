@@ -23,7 +23,7 @@ export default function Dictionary() {
   }
 
   return (
-    <div className="Dictionary d-flex-sm">
+    <div className="Dictionary">
       <form onSubmit={search}>
         <input
           type="search"
