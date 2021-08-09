@@ -1,24 +1,17 @@
+.Meaning p {
+  color: #2c394b;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .Meaning-category {
   padding-top: 15px;
   color: #ff4c29;
   font-size: 22px;
 }
 
-.Meaning-definition {
-  color: #2c394b;
-}
-
 .Meaning-example {
-  color: #2c394b;
   font-style: italic;
   opacity: 0.8;
-}
-
-.Meaning-section {
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.Meaning p {
-  margin-bottom: 5px;
 }

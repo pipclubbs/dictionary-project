@@ -20,15 +20,14 @@ export default function Results(props) {
             );
           })}
         </section>
-        <section>
-          {props.data.meanings.map(function (meaning, index) {
-            return (
-              <section key={index}>
-                <Meaning meaning={meaning} />
-              </section>
-            );
-          })}
-        </section>
+
+        {props.data.meanings.map(function (meaning, index) {
+          return (
+            <section key={index}>
+              <Meaning meaning={meaning} />
+            </section>
+          );
+        })}
       </div>
     );
   } else {
