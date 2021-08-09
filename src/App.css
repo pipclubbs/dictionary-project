@@ -1,11 +1,8 @@
 body {
-  background-color: #edf6e5;
+  background-color: #9e7777;
   text-align: center;
 }
 
-.App .container {
-  width: 500px;
-}
 .App h1 {
   padding-top: 25px;
   text-align: center;
